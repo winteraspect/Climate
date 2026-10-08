@@ -1,0 +1,23 @@
+# OS & Editor files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*~
+~$*
+
+# R runtime and workspace dumps
+.Rhistory
+.RData
+.Rproj.user/
+*.Rout
+
+# Document & PDF artifacts (Legal compliance - do not redistribute copyrighted publications)
+*.pdf
+
+# Raw data files (Data privacy notice - see data/README.md for access instructions)
+data/*.xlsx
+data/*.xls
+data/*.csv
+data/*.txt
+!data/README.md
